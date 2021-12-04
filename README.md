@@ -1,1 +1,1 @@
-# GestorFinanceiro
+# Finanger - Gestor Financeiro Pessoal
