@@ -1,0 +1,75 @@
+body {
+  height: 80%;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  gap: 2rem;
+  padding: 5%;
+}
+
+.divBalance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.divList {
+  margin-top: 3rem;
+  height: 100%;
+  overflow: auto;
+}
+
+.sectionRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divButtonNew {
+  margin-left: auto;
+}
+
+.buttonNew {
+  width: 12rem;
+}
+
+.divCalendar {
+  /* background-color: blueviolet; */
+}
+
+.calendar {
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.divButtonSubmit {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 2rem;
+}
+
+.listItemMovement {
+  /* background-color: lightgreen; */
+}
+
+.listItemTitle {
+  font-weight: bold;
+}
+
+.listItemSubtitle {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.listItemValue {
+  display: flex;
+  width: 7em;
+  flex-direction: row;
+  justify-content: space-between;
+}

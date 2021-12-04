@@ -1,0 +1,47 @@
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+    gap: 2rem;
+  }
+  
+  .home::before {
+    display: block;
+    content: '';
+    background: url('../images/logo.png') no-repeat center center;
+    background-size: 50%, 25%, 25%;
+  }
+
+  .texto {
+    max-width: 30rem;
+    padding: 1rem;
+    margin-top: 10vh;
+  }
+  
+  @media (max-width: 40rem) {
+    .home {
+      grid-template-columns: 1fr;
+    }
+    .home::before {
+      display: none;
+    }
+    .texto {
+      max-width: 100%;
+    }
+  }
+  
+  .subtitle {
+    font-family: var(--type-second);
+    line-height: 1;
+    font-size: 5rem;
+  }
+  
+  .subtitle::after {
+    content: '';
+    display: block;
+    background: rgb(252, 121, 121);
+    height: 0.5rem;
+    width: 10rem;
+    border-radius: 0.8rem;
+    align-content: center;
+  }
